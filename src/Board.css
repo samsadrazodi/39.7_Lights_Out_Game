@@ -1,0 +1,35 @@
+.game{
+    align-items: center;
+}
+.Board {
+    margin: 2% auto;
+  }
+
+.Won{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    color: black;
+    font-weight: bold;
+    margin-top: 5%;
+    font-size: 4em;
+    width: fit-content;
+
+}
+.reset-btn{
+    
+
+    
+    width:max-content;
+    background-color:white;
+
+    color: black;
+
+}
+.reset-btn:hover{
+    background-color: rgb(17, 17, 17);
+    color: white;
+    transition: 0.3s;
+}
